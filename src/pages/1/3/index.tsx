@@ -25,10 +25,10 @@ export default function App(){
         <h1 className="text-4xl lg:text-7xl rounded-lg shadow-lg border p-5 bg-[#F7B787] text-center mt-5 lg:mt-0">حروف الناسخة</h1>     
         <div className="flex flex-wrap justify-center lg:mt-10 text-lg lg:text-3xl  lg:space-y-0 lg:space-x-5">
           <p className="hover w-full" onMouseEnter={()=>{setexample('مثال: إنَّ الطالبَ مجتهدّ')}} onMouseLeave={()=>{setexample("هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>إنَّ</p>
-          <p className="hover" onMouseEnter={()=>{setexample('مثال: أنّ الظالم دامس')}} onMouseLeave={()=>{setexample("هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>أنَّ</p>
-          <p className="hover" onMouseEnter={()=>{setexample('مثال: كأن القمرَ مصباح')}} onMouseLeave={()=>{setexample("هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>كأن</p>
-          <p className="hover" onMouseEnter={()=>{setexample('مثال: الطقسُ بارد لكن النار قريبة')}} onMouseLeave={()=>{setexample("هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>لكنّ</p>
-          <p className="hover" onMouseEnter={()=>{setexample('مثال: ليت الاختيارَ سهل')}} onMouseLeave={()=>{setexample("هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>ليت</p>
+          <p className="hover" onMouseEnter={()=>{setexample('مثال: أنّ الظالمَ دامسُ')}} onMouseLeave={()=>{setexample("هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>أنَّ</p>
+          <p className="hover" onMouseEnter={()=>{setexample('مثال: كأن القمرَ مصباحُ')}} onMouseLeave={()=>{setexample("هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>كأن</p>
+          <p className="hover" onMouseEnter={()=>{setexample('مثال: الطقسُ بارد لكن النارَ قريبةُ')}} onMouseLeave={()=>{setexample("هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>لكنّ</p>
+          <p className="hover" onMouseEnter={()=>{setexample('مثال: ليت الاختيارَ سهلُ')}} onMouseLeave={()=>{setexample("هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>ليت</p>
           <p className="hover" onMouseEnter={()=>{setexample('مثال: لعلّ النصرَ قريبٌ')}} onMouseLeave={()=>{setexample("هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>لعل</p>
 
         </div>
