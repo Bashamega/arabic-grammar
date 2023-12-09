@@ -2,7 +2,20 @@ import Link from "next/link";
 import { useState } from "react";
 import React from "react";
 export default function App(){
-  const [example, setexample] = useState<string>("حروف العطف هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها")
+  const [example, setExample] = useState<string>("<span class='font-bold text-[#527853]'>حروف العطف</span> هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها")
+  const letters = ["والموزَ", "فالموزَ", "أو", "ثم", "حروف العطف"]
+  const setexample = (word:string) => {
+    let updatedExample = word;
+    letters.forEach((letter) => {
+      if (word.includes(letter)) {
+        updatedExample = updatedExample.replace(
+          new RegExp(letter, "g"),
+          `<span class=" font-bold text-[#527853]">${letter}</span>`
+        );
+      }
+    });
+    setExample(updatedExample);
+  };
   return(
    <div className="max-w-screen-lg lg:w-[700px] mx-auto px-4 lg:px-8">
         <Link href={"/1"}>
@@ -29,7 +42,10 @@ export default function App(){
           <p className="hover" onMouseEnter={()=>{setexample('مثال: أكلت التفاحةَ أوالموزَ')}} onMouseLeave={()=>{setexample('حروف العطف هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها')}}>أو</p>
           <p className="hover" onMouseEnter={()=>{setexample('مثال: أكلت التفاحةَ فالموزَ')}} onMouseLeave={()=>{setexample('حروف العطف هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها')}}>فـ</p>
         </div>
-        <p className="text-center mt-10 text-lg text-[#EE7214]">{example}</p>
-  </div>
+        <p
+        id="exampleword"
+        className="text-center mt-10 text-lg text-[#EE7214]"
+        dangerouslySetInnerHTML={{ __html: example }}
+      ></p>  </div>
   )
 }
