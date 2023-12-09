@@ -144,3 +144,26 @@
 	}
   }
   
+  .hover2 {
+	--c: #527853; /* the color */
+	--s: .15em;
+	padding-bottom: 25px; /* Increased padding to create space */
+	
+	background: 
+	  conic-gradient(from 135deg at top,var(--c) 90deg,#0000 0) 
+		left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
+	  conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
+		left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
+	-webkit-mask:
+	  linear-gradient(#000 0 0) content-box,
+	  linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+	transition: .5s;
+  }
+  .hover2:hover {
+	--_p: 100%;
+	color: var(--c);
+  }
+  .read-hover:hover{
+	background-color: #527853;
+	color: white
+  }
