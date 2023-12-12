@@ -66,7 +66,7 @@ export default function App(){
           <p className="hover" onMouseEnter={()=>{setexample('مثال: الطقسُ بارد لكنّ النارَ قريبةُ')}} onMouseLeave={()=>{setexample("الحروف الناسخة هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>لكنّ</p>
           <p className="hover" onMouseEnter={()=>{setexample('مثال: كأن القمرَ مصباحُ')}} onMouseLeave={()=>{setexample("الحروف الناسخة هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>كأن</p>
           <p className="hover" onMouseEnter={()=>{setexample('مثال: أنَّ الظلامَ دامسُ')}} onMouseLeave={()=>{setexample("الحروف الناسخة هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>أنَّ</p>
-          <p className="hover w-full" onMouseEnter={()=>{setexample('مثال: إنَّ الطالبَ مجتهدٌ')}} onMouseLeave={()=>{setexample("الحروف الناسخة هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>إنَّ</p>
+          <p className="hover w-full" onMouseEnter={()=>{setexample('مثال: إنَّ الطالبين مجتهدان')}} onMouseLeave={()=>{setexample("الحروف الناسخة هي مجموعة من الحروف تدخل على الجملة الإسمية فتنسخها: تنصب المبتدأ وترفع الخبر")}}>إنَّ</p>
 
         </div>
         <p
