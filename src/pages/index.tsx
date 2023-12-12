@@ -12,7 +12,7 @@ export default function App(){
           <Link href={"2"}>
             <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">الأسماء</button>
           </Link>
-          <Link href={"verbs"}>
+          <Link href={"3"}>
             <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">الأفعال</button>
           </Link>
         </div>
