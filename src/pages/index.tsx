@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function App(){
   return(
     <div className="lg:w-[700px]">
-        <h1 className="text-7xl text-center">اختر نوعاً</h1>
+        <h1 className="text-7xl">اختر نوعًا</h1>
         <br />
         <div className="lg:flex  lg:space-x-10 justify-center text-3xl mt-10 p-2">
           <Link href={"1"}>

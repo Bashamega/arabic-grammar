@@ -20,7 +20,9 @@ export default function App(){
             />
           </svg>
         </Link>
-        <h1 className="text-7xl">اختر نوعاً</h1>
+        <h1 className="text-7xl">اختر نوعًا</h1>
+        <br></br>
+        <p className="text-[#527853] text-lg">(جميع الحروف ليست لها محل من الإعراب)</p>
         <br />
         <div className="lg:flex lg:space-x-10 text-3xl mt-10">
           <Link href={"1/1"}>

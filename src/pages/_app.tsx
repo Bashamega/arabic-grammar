@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (<main className="h-[100vh] w-[100vw] flex items-center justify-center bg-[#527853] overflow-hidden wrapper">
-             <div className='dot-container'><span className="dot">اسماء</span></div>
+             <div className='dot-container hidden'><span className="dot"></span></div>
              <div className='dot-container'><span className="dot">أفعال</span></div>
              <div className='dot-container'><span className="dot">حروف</span></div>
              <div className='dot-container'><span className="dot">الجر</span></div>

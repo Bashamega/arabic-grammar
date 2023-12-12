@@ -3,15 +3,24 @@ import { useState } from "react";
 import React from "react";
 export default function App(){
   const [example, setExample] = useState<string>("<span class='font-bold text-[#527853]'>حروف العطف</span> هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها")
-  const letters = ["والموزَ", "فالموزَ", "أو", "ثم", "حروف العطف"]
+  const letters = [ "أو", "ثم", "حروف العطف"]
   const setexample = (word:string) => {
     let updatedExample = word;
     letters.forEach((letter) => {
       if (word.includes(letter)) {
-        updatedExample = updatedExample.replace(
-          new RegExp(letter, "g"),
-          `<span class=" font-bold text-[#527853]">${letter}</span>`
-        );
+        if(word.split(' ')[3].startsWith('و')){
+          updatedExample = updatedExample.replace(
+            new RegExp('و'),
+            `<span class=" font-bold text-[#527853]">و</span>`
+          )
+        }
+        else{
+          updatedExample = updatedExample.replace(
+            new RegExp(letter, "g"),
+            `<span class=" font-bold text-[#527853]">${letter}</span>`
+          );
+        }
+        
       }
     });
     setExample(updatedExample);
@@ -39,8 +48,8 @@ export default function App(){
         <div className="flex flex-wrap justify-center lg:mt-10 text-lg lg:text-3xl  lg:space-y-0 lg:space-x-5">
           <p className="hover" onMouseEnter={()=>{setexample('مثال: أكلت التفاحةَ والموزَ')}} onMouseLeave={()=>{setexample('حروف العطف هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها')}}>و</p>
           <p className="hover" onMouseEnter={()=>{setexample('مثال: أكلت التفاحةَ ثم الموزَ')}} onMouseLeave={()=>{setexample('حروف العطف هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها')}}>ثم</p>
-          <p className="hover" onMouseEnter={()=>{setexample('مثال: أكلت التفاحةَ أوالموزَ')}} onMouseLeave={()=>{setexample('حروف العطف هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها')}}>أو</p>
-          <p className="hover" onMouseEnter={()=>{setexample('مثال: أكلت التفاحةَ فالموزَ')}} onMouseLeave={()=>{setexample('حروف العطف هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها')}}>فـ</p>
+          <p className="hover" onMouseEnter={()=>{setexample('مثال: أكلت التفاحةَ أو الموزَ')}} onMouseLeave={()=>{setexample('حروف العطف هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها')}}>أو</p>
+          <p className="hover" onMouseEnter={()=>{setexample('مثال: أكلت الموز <span class=" font-bold text-[#527853]">ف</span>التفاحة')}} onMouseLeave={()=>{setexample('حروف العطف هي الحروف التي تستخدم لربط الجمل والكلمات مع بعضها')}}>فـ</p>
         </div>
         <p
         id="exampleword"
