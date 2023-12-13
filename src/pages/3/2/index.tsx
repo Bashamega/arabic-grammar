@@ -29,8 +29,19 @@ export default function App() {
       <h1 className="text-4xl lg:text-7xl rounded-lg shadow-lg border p-5 bg-[#F7B787] text-center mt-5 lg:mt-0">
         مضارع
       </h1>
-      <div className="flex flex-wrap justify-center lg:mt-10 text-lg lg:text-3xl  lg:space-y-0 lg:space-x-5">
-          
+      <div className="lg:flex lg:space-x-10 lg:justify-center text-3xl mt-10">
+        <Link href={"3/2/1"}>
+          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مجزوم</button>
+        </Link>
+        <Link href={"3/2/2"}>
+          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">منصوب</button>
+        </Link>
+        <Link href={"3/2/3"}>
+          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مرفوع</button>
+        </Link>
+        <Link href={"3/2/4"}>
+          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مبني</button>
+        </Link>
       </div>
     </div>
   );
