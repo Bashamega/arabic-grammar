@@ -49,11 +49,11 @@ export default function App() {
           <p className="hover" onMouseEnter={()=>{setexample('مثال: أنا ذاهب لمدرستيِ')}} onMouseLeave={()=>{setexample('حروف الجر هي حروف تستخدم لربط الأسماء وإضافة معانٍ لها')}}>لـ</p>
           <p className="hover" onMouseEnter={()=>{setexample('مثال: ركض اللاعبُ كالصروخِ')}} onMouseLeave={()=>{setexample('حروف الجر هي حروف تستخدم لربط الأسماء وإضافة معانٍ لها')}}>كـ</p>
           <p className="hover" onMouseEnter={()=>{setexample('مثال: ألعب في الحضيقةِ')}} onMouseLeave={()=>{setexample('حروف الجر هي حروف تستخدم لربط الأسماء وإضافة معانٍ لها')}}>في</p>
-          <p className="hover" onMouseEnter={()=>{setexample('مثال: وضعتُ الهاتفَ على الطاولةِ')}} onMouseLeave={()=>{setexample('حروف الجر هي حروف تستخدم لربط الأسماء وإضافة معانٍ لها')}}>على</p>
-          <p className="hover" onMouseEnter={()=>{setexample('مثال: سأحكي لك قصة عن رحلتي')}} onMouseLeave={()=>{setexample('حروف الجر هي حروف تستخدم لربط الأسماء وإضافة معانٍ لها')}}>عن</p>
+          <p className="hover" onMouseEnter={()=>{setexample('مثال: وضعت السعر على اللعبتين')}} onMouseLeave={()=>{setexample('حروف الجر هي حروف تستخدم لربط الأسماء وإضافة معانٍ لها')}}>على</p>
+          <p className="hover" onMouseEnter={()=>{setexample('مثال: سأحكي لك قصص عن رحلاتِ')}} onMouseLeave={()=>{setexample('حروف الجر هي حروف تستخدم لربط الأسماء وإضافة معانٍ لها')}}>عن</p>
           <p className="hover" onMouseEnter={()=>{setexample('مثال: ذهبتُ إلى الحديقةِ')}} onMouseLeave={()=>{setexample('حروف الجر هي حروف تستخدم لربط الأسماء وإضافة معانٍ لها')}}>إلى</p>
 
-          <p className="hover" onMouseEnter={()=>{setexample('مثال: سافرتُ من المدينةِ')}} onMouseLeave={()=>{setexample('حروف الجر هي حروف تستخدم لربط الأسماء وإضافة معانٍ لها')}}>من</p>
+          <p className="hover" onMouseEnter={()=>{setexample('مثال: أخذت العاب من الصناديقِ')}} onMouseLeave={()=>{setexample('حروف الجر هي حروف تستخدم لربط الأسماء وإضافة معانٍ لها')}}>من</p>
 
       </div>
       <p
