@@ -20,13 +20,18 @@ export default function App(){
             />
           </svg>
         </Link>
-        <h1 className="text-4xl lg:text-7xl rounded-lg shadow-lg border p-5 bg-[#F7B787] text-center mt-5 lg:mt-0">مجزوم</h1>
-        <p className="text-[#527853] text-lg">هذه هي أدوات جزم الفعل المضارع</p>
+        <h1 className="text-4xl lg:text-7xl rounded-lg shadow-lg border p-5 bg-[#F7B787] text-center mt-5 lg:mt-0">فعل مضارع معرب</h1>
+        <p className="text-[#527853] text-lg">فعل المضارع يكون معربا إذا كان متغيرا في آخره بحسب الحالة الإعرابية التي يكون عليها، وهي الرفع والنصب والجزم</p>
         <div className="flex flex-wrap justify-center lg:mt-10 text-lg lg:text-3xl  lg:space-y-0 lg:space-x-5">
-          <p className="text-[#527853]">لام الناهية</p>
-          <p className="text-[#527853]">لام الأمر</p>
-          <p className="text-[#527853]">لما</p>
-          <p className="text-[#527853]">لم</p>
+        <Link href={"/3/2/1/3"}>
+          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مجرور</button>
+        </Link>
+        <Link href={"/3/2/1/2"}>
+          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">منصوب</button>
+        </Link>
+        <Link href={"/3/2/1"}>
+          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مرفوع</button>
+        </Link>
 
         </div>
     </div>

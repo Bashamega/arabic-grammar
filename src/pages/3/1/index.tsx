@@ -29,8 +29,14 @@ export default function App() {
       <h1 className="text-4xl lg:text-7xl rounded-lg shadow-lg border p-5 bg-[#F7B787] text-center mt-5 lg:mt-0">
         أمر
       </h1>
-      <div className="flex flex-wrap justify-center lg:mt-10 text-lg lg:text-3xl  lg:space-y-0 lg:space-x-5">
-          
+      <p className="text-[#527853] text-lg">الفعل الأمر هو الصيغة الخاصة من الفعل التي تُستخدم لطلب أو أمر شخص ما بالقيام بشيء معين. يُستخدم الفعل الأمر في المصدر المباشر دون أن يتم تصريفه حسب الزمن أو الضمير، وعادةً يستخدم مع الضمائر المختصرة التي تُضاف إليه لتحديد الشخص الذي يتم مخاطبته.</p>
+      <div dir="rlt" className="text-[#EE7214] text-lg mt-5 w-full text-right">
+        <ol className=" list-disc" dir="rtl">
+          <li>يُبنى فعل الأمر على السكون (إذا كان الفعل صحيحاً أو اتصلت به نون النسوة).</li>
+          <li>حذف حرف العلة (إذا كان الفعل معتلاً بالألف أو بالواو أو بالياء).</li>
+          <li>حذف النون (إذا اتصلت به واو الجماعة أو ياء المخاطبة أو ألف الاثنين).</li>
+          <li>الفتح (إذا اتصلت به نون التوكيد الثقيلة أو الخفيفة)</li>
+        </ol>
       </div>
     </div>
   );

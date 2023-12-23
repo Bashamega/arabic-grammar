@@ -20,15 +20,14 @@ export default function App(){
             />
           </svg>
         </Link>
-        <h1 className="text-4xl lg:text-7xl rounded-lg shadow-lg border p-5 bg-[#F7B787] text-center mt-5 lg:mt-0">منصوب</h1>
-        <p className="text-[#527853] text-lg">هذه هي أدوات نصب الفعل المضارع</p>
-        <div className="flex flex-wrap justify-center lg:mt-10 text-lg lg:text-3xl  lg:space-y-0 lg:space-x-5">
-          <p className="text-[#527853]">لام التعليل</p>
-          <p className="text-[#527853]">حتى</p>
-          <p className="text-[#527853]">كي</p>
-          <p className="text-[#527853]">لن</p>
-
-          <p className="text-[#527853]">أن</p>
+        <h1 className="text-4xl lg:text-7xl rounded-lg shadow-lg border p-5 bg-[#F7B787] text-center mt-5 lg:mt-0">مبني</h1>
+        <p className="text-[#527853] text-lg">يُبنى الفعل المضارع في حالتين، الحالة الأولى أن تتصل به نون النسوة، والحالة الثانية أن تتصل به نون التوكيد اتصالًا مباشرًا</p>
+        <div dir="rlt" className="text-[#527853] text-lg mt-5 w-full text-right">
+          <h2 className="text-2xl">:أمثلة</h2>
+          <p dir="rtl">نون النسوة:</p>
+          <p>الأمهاتُ <span className="text-[#EE7214]">يربيْنَ</span> أبناءهنّ على مكارم الأخلاق</p>
+          <p dir="rtl">نون التوكيد:</p>
+          <p>الشَّباب <span className="text-[#EE7214]">يذودَنْ</span> عن الدّيار</p>
         </div>
     </div>
   )

@@ -31,15 +31,9 @@ export default function App() {
       </h1>
       <div className="lg:flex lg:space-x-10 lg:justify-center text-3xl mt-10">
         <Link href={"/3/2/1"}>
-          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مجزوم</button>
+          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">معرب</button>
         </Link>
         <Link href={"/3/2/2"}>
-          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">منصوب</button>
-        </Link>
-        <Link href={"/3/2/3"}>
-          <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مرفوع</button>
-        </Link>
-        <Link href={"/3/2/4"}>
           <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مبني</button>
         </Link>
       </div>

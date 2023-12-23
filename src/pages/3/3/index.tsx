@@ -29,8 +29,45 @@ export default function App() {
       <h1 className="text-4xl lg:text-7xl rounded-lg shadow-lg border p-5 bg-[#F7B787] text-center mt-5 lg:mt-0">
         ماضي
       </h1>
-      <div className="flex flex-wrap justify-center lg:mt-10 text-lg lg:text-3xl  lg:space-y-0 lg:space-x-5">
-          
+      <p className="text-[#527853] text-lg">الفعل الماضي هو الفعل الذي يدل على حدث وقع وانقطع قبلَ زمنِ التكلم</p>
+      <div dir="rlt" className="text-[#527853] text-lg mt-5 w-full text-right">
+        <h1 className="text-2xl">اعراب الفعل الماضي</h1>
+        <p dir="rtl">الفعل الماضي مبني؛ فعلامته هي حركة حرف الآخير: الضمة الفتحة السكون</p>
+        <h1 className="text-2xl" dir="rtl">أمثلة:</h1>
+        <details dir="rtl" className="text-[#EE7214] list-disc">
+          <summary className="text-green cursor-pointer">مبني على الضمة:</summary>
+          <ol className="text-[#527853] list-decimal mr-10">
+            <li>إذا اتصلت به واو الجماعة</li>
+            <p>العمال  <span className="text-[#EE7214]">أتقنُوا</span> عملهم</p>
+
+          </ol>
+        </details>
+        <details dir="rtl" className="text-[#EE7214] list-disc">
+          <summary className="text-green cursor-pointer">مبني على الفتحة:</summary>
+          <ol className="text-[#527853] list-decimal mr-10">
+            <li>إذا لم يتصل به شيء</li>
+            <p>  <span className="text-[#EE7214]">نجحَ</span> الطالب في الامتحان</p>
+            <li>إذا اتصلت به تاء التأنيث</li>
+            <p>الحديقة  <span className="text-[#EE7214]">أثمرَت</span> عنبا</p>
+            <li>إذا اتصلت به ألف الاثنين</li>
+            <p>اللاعبان  <span className="text-[#EE7214]">اشتركا</span> في المسابقة</p>
+            <li>إذا اتصل به ضمير نصب (أي: يُعرب الضمير المتصل مفعولًا به)</li>
+            <p>  <span className="text-[#EE7214]">علمنا</span>  المعلم الللغة العربية</p>
+
+          </ol>
+        </details>
+        <details dir="rtl" className="text-[#EE7214] list-disc">
+          <summary className="text-green cursor-pointer">مبني على الجزم:</summary>
+          <ol className="text-[#527853] list-decimal mr-10">
+            <li>إذا اتصلت به تاء الفاعل</li>
+            <p>  <span className="text-[#EE7214]">ذاكرْت</span> دروسي جيداً</p>
+            <li>إذا اتصل به (نا الفاعلين التي تدل على الفاعل)</li>
+            <p>  <span className="text-[#EE7214]">استطعْنا</span>  التغلب على الصعاب</p>
+            <li>إذا اتصلت به نون النسوة</li>
+            <p>الطبيبات  <span className="text-[#EE7214]">عالجْن</span> المرضى</p>
+
+          </ol>
+        </details>
       </div>
     </div>
   );
