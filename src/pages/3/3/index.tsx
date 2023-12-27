@@ -31,8 +31,8 @@ export default function App() {
       </h1>
       <p className="text-[#527853] text-lg">الفعل الماضي هو الفعل الذي يدل على حدث وقع وانقطع قبلَ زمنِ التكلم</p>
       <div dir="rlt" className="text-[#527853] text-lg mt-5 w-full text-right">
-        <h1 className="text-2xl">اعراب الفعل الماضي</h1>
-        <p dir="rtl">الفعل الماضي مبني؛ فعلامته هي حركة حرف الآخير: الضمة الفتحة السكون</p>
+        <h1 className="text-2xl">إعراب الفعل الماضي</h1>
+        <p dir="rtl">الفعل الماضي مبني دائمًا؛ وعلامته على الحرف الآخير</p>
         <h1 className="text-2xl" dir="rtl">أمثلة:</h1>
         <details dir="rtl" className="text-[#EE7214] list-disc">
           <summary className="text-green cursor-pointer">مبني على الضمة:</summary>
@@ -52,12 +52,12 @@ export default function App() {
             <li>إذا اتصلت به ألف الاثنين</li>
             <p>اللاعبان  <span className="text-[#EE7214]">اشتركا</span> في المسابقة</p>
             <li>إذا اتصل به ضمير نصب (أي: يُعرب الضمير المتصل مفعولًا به)</li>
-            <p>  <span className="text-[#EE7214]">علمنا</span>  المعلم الللغة العربية</p>
+            <p>  <span className="text-[#EE7214]">علمنا</span>  المعلم اللغة العربية</p>
 
           </ol>
         </details>
         <details dir="rtl" className="text-[#EE7214] list-disc">
-          <summary className="text-green cursor-pointer">مبني على الجزم:</summary>
+          <summary className="text-green cursor-pointer">مبني على السكون:</summary>
           <ol className="text-[#527853] list-decimal mr-10">
             <li>إذا اتصلت به تاء الفاعل</li>
             <p>  <span className="text-[#EE7214]">ذاكرْت</span> دروسي جيداً</p>
