@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { MdSubdirectoryArrowLeft } from "react-icons/md";
 export default function App(){
   return(
     <div className="lg:w-[700px] max-w-screen-lg mx-auto px-4 lg:px-8">
@@ -24,10 +25,14 @@ export default function App(){
         <p className="text-[#527853] text-lg">يُبنى الفعل المضارع في حالتين، الحالة الأولى أن تتصل به نون النسوة، والحالة الثانية أن تتصل به نون التوكيد اتصالًا مباشرًا</p>
         <div dir="rlt" className="text-[#527853] text-lg mt-5 w-full text-right">
           <h2 className="text-2xl">:أمثلة</h2>
-          <p dir="rtl" >نون النسوة: (وهي نون مفتوحة ويكون الفعل في هذه الحالة مبنيًا على السكون)</p>
-          <p>الأمهاتُ <span className="text-[#EE7214]">يربيْنَ</span> أبناءهنّ على مكارم الأخلاق</p>
-          <p dir="rtl">نون التوكيد: (وهي نون مشددة ويكون الفعل في هذه الحالة مبنيًا على الفتحة)</p>
-          <p>الشَّباب <span className="text-[#EE7214]">يذدونّ</span> عن الدّيار</p>
+          <p dir="rtl" >نون النسوة: (وهي نون مفتوحة ويكون الفعل في هذه الحالة مبنيًا على <span className=" text-red-500 font-bold italic mr-2"> السكون  </span>)</p>
+          <p>أنتن <span className="text-[#EE7214]">تَأكُلْنَ</span> الكعك</p>
+          <p dir="rtl" className="mr-10 flex items-center"><MdSubdirectoryArrowLeft/> فعل مضارع مبني على           <span className=" text-red-500 font-bold italic mr-2"> السكون  </span>
+</p>
+          <p dir="rtl">نون التوكيد: (وهي نون مشددة ويكون الفعل في هذه الحالة مبنيًا على <span className=" text-red-500 font-bold italic mr-2"> الفتحة  </span>)</p>
+          <p>والله <span className="text-[#EE7214]">لتأكلنَّ</span> الكعك</p>
+          <p dir="rtl" className="mr-12 flex items-center"><MdSubdirectoryArrowLeft/> فعل مضارع مبني على           <span className=" text-red-500 font-bold italic mr-2"> الفتحة  </span>
+</p>
         </div>
     </div>
   )

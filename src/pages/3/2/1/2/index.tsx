@@ -33,45 +33,56 @@ export default function App(){
         
         <div dir="rlt" className="text-[#EE7214] text-lg mt-5 w-full text-right">
         <h1 className="text-2xl" dir="rtl">أمثلة:</h1>
-        <details dir="rtl">
-          <summary>1 – أن   </summary>
-          <p>
-             أتمنى
-            <span className="text-[#527853]"> أن </span>
-             تتعلمَ
-          </p>
-        </details>
-        <details dir="rtl">
-          <summary>2 – لن  </summary>
-          <p>
-            <span className="text-[#527853]">لن </span>
-            أبرحَ مكاني 
-          </p>
-        </details>
-        <details dir="rtl">
-          <summary>3 – كي </summary>
-          <p>
-            أجتهد في دراستي 
-            <span className="text-[#527853]"> كي </span>
-            أنجحَ 
-          </p>
-        </details>
-        <details dir="rtl">
-          <summary>4 – حتى </summary>
-          <p>
-             اجتهد  
-            <span className="text-[#527853]"> حتى </span>
-            تحققَ أمانيك 
-          </p>
-        </details>
-        <details dir="rtl">
-          <summary>3 – لام التعليل </summary>
-          <p>
-            درست جيدًا 
-            <span className="text-[#527853]"> ل</span>
-            أنجحَ 
-          </p>
-        </details>
+        <div className="table-container">
+        <table className="table-auto w-full text-center border-2  border-orange-500">
+          <tbody>
+            <tr className="text-[#527853]">
+              <td className=" px-4 py-2 border-2  border-orange-500">حذف حرف النون</td>
+              <td className="border-2  border-orange-500 px-4 py-2">الفتحة المقدرة</td>
+              <td className="border-2  border-orange-500 px-4 py-2">الفتحة الظاهرة</td>
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+
+            </tr>
+            <tr className="text-[#527853]">
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+              <td className="border-2  border-orange-500 px-4 py-2">أن تحافظ على صحتك</td>
+              <td className="border-2  border-orange-500 px-4 py-2">أن</td>
+
+            </tr>
+            <tr className="text-[#527853]">
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+              <td className="border-2  border-orange-500 px-4 py-2"> لن أبرح مكاني</td>
+              <td className="border-2  border-orange-500 px-4 py-2">لن</td>
+
+            </tr>
+            <tr className="text-[#527853]">
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+              <td className="border-2  border-orange-500 px-4 py-2">أجتهد في دراستي كي أنجح</td>
+              <td className="border-2  border-orange-500 px-4 py-2">كي</td>
+
+            </tr>
+            <tr className="text-[#527853]">
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+              <td className="border-2  border-orange-500 px-4 py-2">اجتهد حتى تحقق أمانيك</td>
+              <td className="border-2  border-orange-500 px-4 py-2">حتى</td>
+
+            </tr>
+            <tr className="text-[#527853]">
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+              <td className="border-2  border-orange-500 px-4 py-2"></td>
+              <td className="border-2  border-orange-500 px-4 py-2">درست جيدًا لأنجحَ</td>
+              <td className="border-2  border-orange-500 px-4 py-2">لام التعليل</td>
+
+            </tr>
+
+          </tbody>
+        </table>
+
+        </div>
       </div>
     </div>
   )
