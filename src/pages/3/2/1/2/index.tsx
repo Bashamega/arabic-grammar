@@ -3,7 +3,7 @@ import React from "react";
 export default function App(){
   return(
     <div className="lg:w-[700px] max-h-[50vh] overflow-y-scroll max-w-screen-lg mx-auto px-4 lg:px-8">
-        <Link href={"/3/2"}>
+        <Link href={"/3/2/1"}>
           <svg
             width="24"
             height="24"
@@ -59,7 +59,7 @@ export default function App(){
               <td className="border-2  border-orange-500 px-4 py-2"> يجب أن <div className=" text-orange-500 tooltip"> أسعى 
               <span className="tooltiptext">فعل مضارع منصوب وعلامة نصبه الفتحة المقدرة</span>
               </div> في الخير</td>
-              <td className="border-2  border-orange-500 px-4 py-2">أن 
+              <td className="border-2  border-orange-500 px-4 py-2">يجب أن 
               <div className=" text-orange-500 tooltip"> تحافظَ 
               <span className="tooltiptext">فعل مضارع منصوب وعلامة نصبه الفتحة </span>
               </div>
@@ -81,7 +81,7 @@ export default function App(){
 
             </tr>
             <tr className="text-[#527853]">
-              <td className="border-2  border-orange-500 px-4 py-2">افعلوا الخير كي <div className=" text-orange-500 tooltip"> تحضوا 
+              <td className="border-2  border-orange-500 px-4 py-2">افعلوا الخير كي <div className=" text-orange-500 tooltip"> تحصدوا 
               <span className="tooltiptext">فعل مضارع منصوب وعلامة نصبه حذف حرف النون</span>
               </div> خيراً</td>
               <td className="border-2  border-orange-500 px-4 py-2">كي <div className=" text-orange-500 tooltip"> أسعى 
