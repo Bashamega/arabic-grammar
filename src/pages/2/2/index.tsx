@@ -22,14 +22,29 @@ export default function Names(){
                 </Link>
                 <h1 className="text-7xl">اختر نوعًا</h1>
                 <br></br>
-                <p className="text-[#527853] text-lg"></p>
+                <p className="text-[#527853] text-lg">منصوب</p>
                 <br />
-                <div className="lg:flex lg:space-x-10 lg:justify-center text-3xl mt-10">
-                <Link href={"2/3/2"}>
-                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">اسم مجرور</button>
-                </Link>
+                <div dir="rtl" className=" lg:grid lg:grid-cols-3  lg:gap-5  text-3xl mt-5">
                 <Link href={"2/3/1"}>
-                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مضاف إليه</button>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مفعول به</button>
+                </Link>                
+                <Link href={"2/3/2"}>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مفعول لأجله</button>
+                </Link><Link href={"2/3/3"}>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مفعول فيه</button>
+                </Link><Link href={"2/3/4"}>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مفعول مطلق</button>
+                </Link><Link href={"2/3/5"}>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">تمييز</button>
+                </Link><Link href={"2/3/6"}>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">حال</button>
+                </Link><Link href={"2/3/7"}>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">اسم إن</button>
+                </Link><Link href={"2/3/8"}>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">خبر كان</button>
+                </Link>
+                <Link href={"2/3/9"}>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">المنادى</button>
                 </Link>
                 </div>
                 
