@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Names(){
     return(
         <div className="lg:w-[700px]">
-            <Link href={"/"}>
+            <Link href={"/2"}>
                 <svg
                     width="24"
                     height="24"
@@ -22,20 +22,14 @@ export default function Names(){
                 </Link>
                 <h1 className="text-7xl">اختر نوعًا</h1>
                 <br></br>
-                <p className="text-[#527853] text-lg"></p>
+                <p className="text-[#527853] text-2xl">مجرور</p>
                 <br />
                 <div className="lg:flex lg:space-x-10 lg:justify-center text-3xl mt-10">
-                <Link href={"2/3"}>
-                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مجرور</button>
+                <Link href={"2/3/2"}>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">اسم مجرور</button>
                 </Link>
-                <Link href={"2/2"}>
-                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">منصوب</button>
-                </Link>
-                <Link href={"2/1"}>
-                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مرفوع</button>
-                </Link>
-                <Link href={"2/4"}>
-                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">توابع</button>
+                <Link href={"2/3/1"}>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مضاف إليه</button>
                 </Link>
                 </div>
                 
