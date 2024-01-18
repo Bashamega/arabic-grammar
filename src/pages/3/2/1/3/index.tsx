@@ -182,12 +182,12 @@ export default function App(){
                 <details>
                   <summary className="text-orange-500">إذا كان الفعل المضارع جوابًا للفعل المضارع</summary>
                   <p>
-                    لا
-                    <span className="text-orange-500"> تُسرقْ </span>
-                    تصبح نادمًا
+                    لا تسرق
+                    <span className="text-orange-500"> تصبحْ </span>
+                     نادمًا
                   </p>
                   <p>
-                    <span className="text-orange-500"> تسرق - </span>
+                    <span className="text-orange-500"> تصبح - </span>
                     فعل مضارع مجزوم وعلامة جزمه السكون
                   </p>
                 </details>
