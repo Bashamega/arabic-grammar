@@ -37,9 +37,6 @@ export default function Names(){
                 <Link href={"2/4"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">توابع</button>
                 </Link>
-                <Link href={"2/5"}>
-                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مبني</button>
-                </Link>
                 </div>
                 
 

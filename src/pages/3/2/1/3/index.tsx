@@ -32,8 +32,58 @@ export default function App(){
                 <Tab>3. يقع جوابًا لطلب</Tab>
             </TabList>
             <TabPanel>
-                <h1 className=" text-2xl text-[#527853]">أدوات الجزم</h1>
-                <p className="text-[#527853]">لم - لام الأمر - لا الناهية</p>
+              <Tabs>
+                <TabList>
+                  <Tab>قواعد</Tab>
+                  <Tab>اعراب</Tab>
+                  <Tab>أمثلة</Tab>
+                </TabList>
+                <TabPanel>
+                  <h1 className=" text-2xl text-[#527853]">أدوات الجزم</h1>
+                  <p className="text-[#527853]">لم - لام الأمر - لا الناهية</p>
+                </TabPanel>
+                <TabPanel>
+                  <h2 className="text-[#527853] text-2xl text-right" dir="rtl">إعراب:</h2>
+
+                  <p className="text-right text-[#527853]" dir="rtl">
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه السكون عندما يكون صحيح الآخر
+                    <br></br>
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف حرف العلة عندما يكون معتل الأخر. 
+                    <br></br>
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف النون عندما يكون من الأفعال الخمسة.
+                  </p>
+                </TabPanel>
+                <TabPanel dir="rtl" className={"text-right"}>
+                  <h2 className="text-[#527853] text-2xl text-right" dir="rtl">أمثلة:</h2>
+
+                  <details>
+                    <summary className="text-orange-500">لم يفرْ طارقُ في الأمانةِ</summary>
+                    <p className="text-[#527853]">
+                    <span className="text-orange-500">يفرْ</span>
+                    :
+                    فعل مضارع مجزوم وعلامة جزمه السكون
+                    </p>
+                  </details>
+                  <details>
+                    <summary className="text-orange-500">لتقضِ بالحق ولا تظلم</summary>
+                    <p className="text-[#527853]">
+                    <span className="text-orange-500">تقض</span>
+                    :
+                    فعل مضارع مجزوم وعلامة جزمه حذف حرف العلة
+                    </p>
+                  </details>
+                  <details>
+                    <summary className="text-orange-500">لا تتهاوني في المدرسة</summary>
+                    <p className="text-[#527853]">
+                    <span className="text-orange-500">تتهاوني</span>
+                    :
+                    فعل مضارع مجزوم وعلامة جزمه حذف حرف النون
+                    </p>
+                  </details>
+                </TabPanel>
+                
+              </Tabs>
+              
             </TabPanel>
             <TabPanel className="text-[#527853] text-right">
                 <h1 className=" text-2xl text-[#527853]">أسلوب الشرط</h1>
@@ -89,15 +139,7 @@ export default function App(){
               </div>
             </TabPanel>
         </Tabs>
-        <h2 className="text-[#527853] text-2xl text-right" dir="rtl">إعراب:</h2>
-
-        <p className="text-right text-[#527853]" dir="rtl">
-          يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه السكون عندما يكون صحيح الآخر
-          <br></br>
-          يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف حرف العلة عندما يكون معتل الأخر. 
-          <br></br>
-          يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف النون عندما يكون من الأفعال الخمسة.
-        </p>
+        
         
     </div>
   )
