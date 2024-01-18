@@ -85,19 +85,87 @@ export default function App(){
               </Tabs>
               
             </TabPanel>
-            <TabPanel className="text-[#527853] text-right">
+            <TabPanel className="">
+
+                <Tabs>
+                <TabList>
+                  <Tab>قواعد</Tab>
+                  <Tab>اعراب</Tab>
+                  <Tab>أمثلة</Tab>
+                </TabList>
+                <TabPanel>
                 <h1 className=" text-2xl text-[#527853]">أسلوب الشرط</h1>
-                <p className="text-[#527853] text-right">أسلوب الشرط هو أسلوب بلاغي يدل على تلازم وارتباط بين جملتين بواسطة أداة تسمى أداة الشرط. يتكون أسلوب الشرط من ثلاثة أركان هي: أداة الشرط، وجملة فعل الشرط، وجملة جواب الشرط. يفيد أسلوب الشرط بوقوع شيء بسبب شيء آخر مرتبط به ومسبب له. </p>
-                <br></br><br></br>
-                <p>مثال:
-                    إن 
-                   <span className="text-orange-500"> تدرسْ تنجحْ </span>
-                    </p>
+                <p className="text-[#527853] text-right">أسلوب الشرط هو أسلوب بلاغي يدل على تلازم وارتباط بين جملتين بواسطة أداة تسمى أداة الشرط. يتكون أسلوب الشرط من ثلاثة أركان هي:  </p>
+                <br></br>
+                <p className="text-[#527853] ">أداة الشرط - وجملة فعل الشرط - وجملة جواب الشرط</p>
+
+                <br></br>
+                <p className="text-[#527853] text-right">كل أدوات الشرط جازمة ماعدة:</p>
+                <br></br>
+                <p className="text-[#527853] ">لو - أما - لولا - لوما</p>
+                </TabPanel>
+                <TabPanel>
+                  <h2 className="text-[#527853] text-2xl text-right" dir="rtl">إعراب:</h2>
+
+                  <p className="text-right text-[#527853]" dir="rtl">
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه السكون عندما يكون صحيح الآخر
+                    <br></br>
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف حرف العلة عندما يكون معتل الأخر. 
+                    <br></br>
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف النون عندما يكون من الأفعال الخمسة.
+                  </p>
+                </TabPanel>
+                <TabPanel dir="rtl" className={"text-right text-[#527853]"}>
+                  
+                  <h2 className="text-[#527853] text-2xl text-right" dir="rtl">أمثلة:</h2>
+                  <ul className=" list-disc">
+                    <li>
+                      متى 
+                      <span className="text-orange-500"> يطلعْ </span>
+                      النهار
+                      <span className="text-orange-500"> يخرجْ </span>
+                      العامل إلى عمله
+                    </li>
+                    <li>
+                      من
+                      <span className="text-orange-500"> يدرسْ </span>
+                      جيدًا
+                      <span className="text-orange-500"> ينجحْ</span>
+                    </li>
+                    <li>
+                      ما
+                      <span className="text-orange-500"> تقرأ</span>
+                      <span className="text-orange-500"> يفيدْك </span>
+                    </li>
+                  </ul>
+                </TabPanel>
+                
+              </Tabs>
             </TabPanel>
             <TabPanel className="text-[#527853] text-right">
-              <h1 className=" text-2xl text-[#527853]">أسلوب الطلب</h1>
+            <Tabs>
+                <TabList>
+                  <Tab>قواعد</Tab>
+                  <Tab>اعراب</Tab>
+                  <Tab>أمثلة</Tab>
+                </TabList>
+                <TabPanel>
+                <h1 className=" text-2xl text-[#527853]">أسلوب الطلب</h1>
               <p className="text-[#527853] text-right">هو أسلوب نحوي يتضمن جزم الفعل المضارع إذا جاء جوابًا للطلب، والطلب هو ما دلّ على طلب حدوث الفعل أو الكفّ عنه، ويشمل ذلك: الأمر والمضارع المقترن بلام الأمر، النهي، العرض، التحضيض، الاستفهام، التمني، الدعاء، والجزم في جواب الطلب يُشبه الجزم في جواب الشرط، ذلك أنّ الشرط والطلب أسلوبان متشابهان في أنّ كلتا الجملتين لم تتحقّقا بعد، فأسلوب الطلب يُشبه الشرط من ناحية المعنى.</p>
-              <h2 className=" text-lg" dir="rtl">أمثلة</h2>
+                </TabPanel>
+                <TabPanel>
+                  <h2 className="text-[#527853] text-2xl text-right" dir="rtl">إعراب:</h2>
+
+                  <p className="text-right text-[#527853]" dir="rtl">
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه السكون عندما يكون صحيح الآخر
+                    <br></br>
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف حرف العلة عندما يكون معتل الأخر. 
+                    <br></br>
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف النون عندما يكون من الأفعال الخمسة.
+                  </p>
+                </TabPanel>
+                <TabPanel dir="rtl" className={"text-right"}>
+                <h2 className=" text-lg" dir="rtl">أمثلة</h2>
               <div >
                 <details>
                   <summary className="text-orange-500">إذا كان الفعل المضارع جوابًا لفعل الأمر</summary>
@@ -137,6 +205,11 @@ export default function App(){
 
                 </details>
               </div>
+                </TabPanel>
+                
+              </Tabs>
+              
+              
             </TabPanel>
         </Tabs>
         
