@@ -46,11 +46,11 @@ export default function App(){
                   <h2 className="text-[#527853] text-2xl text-right" dir="rtl">إعراب:</h2>
 
                   <p className="text-right text-[#527853]" dir="rtl">
-                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه السكون عندما يكون صحيح الآخر
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه <span className="text-orange-500">السكون</span> عندما يكون صحيح الآخر
                     <br></br>
-                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف حرف العلة عندما يكون معتل الأخر. 
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه <span className="text-orange-500">حذف حرف العلة</span> عندما يكون معتل الأخر. 
                     <br></br>
-                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف النون عندما يكون من الأفعال الخمسة.
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه<span className="text-orange-500"> حذف النون</span> عندما يكون من الأفعال الخمسة.
                   </p>
                 </TabPanel>
                 <TabPanel dir="rtl" className={"text-right"}>
@@ -108,11 +108,11 @@ export default function App(){
                   <h2 className="text-[#527853] text-2xl text-right" dir="rtl">إعراب:</h2>
 
                   <p className="text-right text-[#527853]" dir="rtl">
-                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه السكون عندما يكون صحيح الآخر
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه <span className="text-orange-500">السكون</span> عندما يكون صحيح الآخر
                     <br></br>
-                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف حرف العلة عندما يكون معتل الأخر. 
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه <span className="text-orange-500">حذف حرف العلة</span> عندما يكون معتل الأخر. 
                     <br></br>
-                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف النون عندما يكون من الأفعال الخمسة.
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه<span className="text-orange-500"> حذف النون</span> عندما يكون من الأفعال الخمسة.
                   </p>
                 </TabPanel>
                 <TabPanel dir="rtl" className={"text-right text-[#527853]"}>
@@ -142,7 +142,7 @@ export default function App(){
                 
               </Tabs>
             </TabPanel>
-            <TabPanel className="text-[#527853] text-right">
+            <TabPanel className="text-[#527853] ">
             <Tabs>
                 <TabList>
                   <Tab>قواعد</Tab>
@@ -157,11 +157,11 @@ export default function App(){
                   <h2 className="text-[#527853] text-2xl text-right" dir="rtl">إعراب:</h2>
 
                   <p className="text-right text-[#527853]" dir="rtl">
-                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه السكون عندما يكون صحيح الآخر
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه <span className="text-orange-500">السكون</span> عندما يكون صحيح الآخر
                     <br></br>
-                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف حرف العلة عندما يكون معتل الأخر. 
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه <span className="text-orange-500">حذف حرف العلة</span> عندما يكون معتل الأخر. 
                     <br></br>
-                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه حذف النون عندما يكون من الأفعال الخمسة.
+                    يعرب فعلًا مضارعًا مجزومًا وعلامة جزمه<span className="text-orange-500"> حذف النون</span> عندما يكون من الأفعال الخمسة.
                   </p>
                 </TabPanel>
                 <TabPanel dir="rtl" className={"text-right"}>
