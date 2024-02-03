@@ -25,17 +25,17 @@ export default function Names(){
                 <p className="text-[#527853] text-lg">مرفوع</p>
                 <br />
                 <div dir="rtl" className=" lg:grid lg:grid-cols-3 mb-5 lg:gap-5  text-3xl mt-10">
-                <Link href={"2/1/1"}>
+                <Link href={"/2/1/1"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مبتدأ</button>
-                </Link><Link href={"2/1/2"}>
+                </Link><Link href={"/2/1/2"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">خبر</button>
-                </Link><Link href={"2/1/3"}>
+                </Link><Link href={"/2/1/3"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">فاعل</button>
-                </Link><Link href={"2/1/4"}>
+                </Link><Link href={"/2/1/4"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">نائب فاعل</button>
-                </Link><Link href={"2/1/5"}>
+                </Link><Link href={"/2/1/5"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">اسم كان</button>
-                </Link><Link href={"2/1/1"}>
+                </Link><Link href={"/2/1/1"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">خبر إن</button>
                 </Link>
                 </div>
