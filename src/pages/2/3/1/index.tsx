@@ -33,19 +33,24 @@ export default function Names(){
                         <Tab>أمثلة</Tab>
                     </TabList>
                     <TabPanel className=" text-right">
-                        <h1  className=" text-2xl text-[#527853]">تعريف المضاف إليه:</h1>
+                        <h1  className=" text-2xl text-[#527853]">تعريف الاسم المجرور:</h1>
                         <p className=" text-[#527853]">
-                        الاسم المجرور هو اسمٌ يأتي بعد حرفٍ من حروف الجر، ويعرب بالكسرة وهي العلامة الأصلية له
+                        الاسم المجرور هو اسمٌ يأتي بعد حرفٍ من حروف الجر.
                         </p>
                     </TabPanel>
                     <TabPanel className=" text-right">
-                        <h1  className=" text-2xl text-[#527853]">أعراب المضاف إليه:</h1>
+                        <h1  className=" text-2xl text-[#527853]">أعراب الاسم المجرور:</h1>
                         <ul className="text-[#527853]" style={{ listStyleType: 'arabic-indic' }}>
-                            <li>يعب مضافًا إليه مجرورًا وعلامة جره <span className="text-orange-500">الكسرة</span></li>
-                            <li>يعب مضافًا إليه مجرورًا وعلامة جره <span className="text-orange-500">الكسرة</span> عندما يكون جمع تكسير</li>
-                            <li>يعب مضافًا إليه مجرورًا وعلامة جره <span className="text-orange-500">الكسرة</span> عندما يكون جمع مؤنث سالم</li>
-                            <li>يعب مضافًا إليه مجرورًا وعلامة جره <span className="text-orange-500">الياء</span> عندما يكون مثنى</li>
-                            <li>يعب مضافًا إليه مجرورًا وعلامة جره <span className="text-orange-500">الياء</span> عندما يكون جمع مذكر سالم</li>
+                            <li>
+                                يعرب الاسم المجرور بال
+                                <span className="text-orange-500">كسرة </span>
+                                عندما يكون: مفرد، أو جمع تكسير، أو جمع مؤنث سالم
+                            </li>
+                            <li>
+                                يعراب الاسم المجرور بال
+                                <span className="text-orange-500">ياء </span>
+                                عندما يكون: مثنى، أو جمع مذكر سالم
+                            </li>
                         </ul>
 
 

@@ -39,11 +39,16 @@ export default function Names(){
                     <TabPanel className=" text-right">
                         <h1  className=" text-2xl text-[#527853]">أعراب المضاف إليه:</h1>
                         <ul className="text-[#527853]" style={{ listStyleType: 'arabic-indic' }}>
-                            <li>يعب مضافًا إليه مجرورًا وعلامة جره <span className="text-orange-500">الكسرة</span></li>
-                            <li>يعب مضافًا إليه مجرورًا وعلامة جره <span className="text-orange-500">الكسرة</span> عندما يكون جمع تكسير</li>
-                            <li>يعب مضافًا إليه مجرورًا وعلامة جره <span className="text-orange-500">الكسرة</span> عندما يكون جمع مؤنث سالم</li>
-                            <li>يعب مضافًا إليه مجرورًا وعلامة جره <span className="text-orange-500">الياء</span> عندما يكون مثنى</li>
-                            <li>يعب مضافًا إليه مجرورًا وعلامة جره <span className="text-orange-500">الياء</span> عندما يكون جمع مذكر سالم</li>
+                            <li>
+                                يعرب المضاف إليه بال
+                                <span className="text-orange-500">كسرة </span>
+                                عندما يكون: مفرد، أو جمع تكسير، أو جمع مؤنث سالم
+                            </li>
+                            <li>
+                                يعراب المضاف إليه بال
+                                <span className="text-orange-500">ياء </span>
+                                عندما يكون: مثنى، أو جمع مذكر سالم
+                            </li>
                         </ul>
 
 
@@ -62,7 +67,7 @@ export default function Names(){
                             <p>الطلاب - مضاف إليه وعلمة جره <span className="text-orange-500"> الكسرة </span> لأنه جمع تكسير</p>
                         </details>
                         <details>
-                            <summary>أجذت مياه الطلابات</summary>
+                            <summary>أخذت مياه الطالبات</summary>
                             <p>الطالبات - مضاف إليه مجرو وعلامة جره<span className="text-orange-500"> الكسرة </span> لأنه جمع مؤنث سالم</p>
                         </details>
                         <details>
