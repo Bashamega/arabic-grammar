@@ -24,7 +24,7 @@ export default function Names(){
                 </Link>
                 <h1 className="text-7xl">نعت</h1>
                 <br></br>
-                <p className="text-[#527853] text-lg">النعت هي الكلمة التي توصف كلمة أخرى</p>
+                <p className="text-[#527853] text-lg">النعت كلمة تصف كلمة أخرى سابقة لها</p>
                 <br />
                 <Tabs dir="rtl">
                     <TabList>
@@ -35,7 +35,7 @@ export default function Names(){
                     <TabPanel className=" text-right">
                         <h1  className=" text-2xl text-[#527853]">تعريف النعت:</h1>
                         <p className=" text-[#527853]">
-                        النعت هو من التوابع ، ويسمى الصفة أيضا، ويأتي لبيان صفة الاسم الذي يتبعه في الإعراب.
+                        النعت كلمة تصف كلمة أخرى سابقة لها
                         </p>
                     </TabPanel>
                     <TabPanel className=" text-right">
@@ -61,7 +61,7 @@ export default function Names(){
                         
                         <details>
                             <summary >حببت طالبات مجداتِ</summary>
-                            <p>مجدات - نعت منصوب وعلامة الجر <span className="text-orange-500"> الكسرة </span></p>
+                            <p>مجدات - نعت منصوب وعلامة نصبه <span className="text-orange-500"> الكسرة </span></p>
                         </details>
                         
                     </TabPanel>
