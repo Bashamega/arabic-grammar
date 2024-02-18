@@ -52,7 +52,7 @@ export default function Names(){
                 <br></br>
                 <div className=" rounded text-right bg-slate-200 mt-2 p-2 border-1" dir="rtl">
                     <h3 className=" text-2xl">ملاحظة:</h3>
-                    <p>كل اسم فيه (ألـ تعريق) بعد اسم إشارة يعرب بدل مطالق، إلى إذا كان اسم الإشارة منادى</p>
+                    <p>كل اسم فيه (ألـ تعريق) بعد اسم إشارة يعرب بدل مطابق، إلى إذا كان اسم الإشارة منادى</p>
                 </div>
                 </div>
                 
