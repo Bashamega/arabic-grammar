@@ -23,10 +23,14 @@ export default function Names(){
                 <h1 className="text-7xl">التوكيد معنوي</h1>
                 <br></br>
                 <p className="text-[#527853] text-lg">التوكيد المعنوي هو أن يذكر بعد الاسم السابق ( المؤكد ) أحد هذه الألفاظ : </p>
+                <br></br>
+                <p className="text-[#527853] text-lg">هذه الالفاظ متصلة  بضمير يعود على المؤكد </p>
+                <br></br>
+                <p className="text-[#527853] text-lg">عند حذف التوكيد من الجملة لا يتغير المعنى</p>
                 <p className="text-orange-500 text-lg">نفس – عين – كل – جميع – عامة – كلا – كلتا – أجمع </p>
                 <br />
-                <div className="text-[#527853] text-lg text-right"dir="rtl">
-                    <ul className="text-[#527853]" style={{ listStyleType: 'arabic-indic' }}>
+                <div className="text-[#527853] text-lg text-right flex"dir="rtl">
+                    <ul className="text-[#527853] max-w-2/5" style={{ listStyleType: 'arabic-indic' }}>
                         <li>رأيت الأستاذ <span className="underline text-orange-500">نفسَه</span> في السوق</li>
                         <li>جاء اللاعبون <span className="underline text-orange-500">أعينهم</span> فدخلوا الملعب</li>
                         <li>أحب الصادقين <span className="underline text-orange-500">كلهم</span> </li>
@@ -35,6 +39,15 @@ export default function Names(){
                         <li>جاء الطالبان <span className="underline text-orange-500">كلاهما</span></li>
                         <li>جاءت المرأتان <span className="underline text-orange-500">كلتاهما</span></li>
                     </ul>
+                    <div className="rounded-lg p-5 mr-5 w-2/5 bg-[#F7B787] h-[100]">
+                        <h2 className="text-2xl">ليس توكيدًا</h2>
+                        <ul className="text-[#527853] max-w-2/5" style={{ listStyleType: 'arabic-indic' }}>
+                        <li>داخل نفس المكان</li>
+                        <li>كل الحيوانات لطاف</li>
+                        <li>جميع الطلاب متفوقون</li>
+
+                    </ul>
+                    </div>
                 </div>
 
         </div>

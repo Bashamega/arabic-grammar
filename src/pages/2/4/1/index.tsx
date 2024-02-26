@@ -29,7 +29,7 @@ export default function Names(){
                 <Tabs dir="rtl">
                     <TabList>
                         <Tab>تعريف</Tab>
-                        <Tab>اعراب</Tab>
+                        <Tab>إعراب</Tab>
                         <Tab>أمثلة</Tab>
                     </TabList>
                     <TabPanel className=" text-right">
@@ -41,7 +41,7 @@ export default function Names(){
                     <TabPanel className=" text-right">
                         <h1  className=" text-2xl text-[#527853]">أعراب النعت:</h1>
                         <ul className="text-[#527853]" style={{ listStyleType: 'arabic-indic' }}>
-                            <p>يعرب النعت حسب مكانه في الجملة واعرابه يختلف على حسب اعراب الكلمة التي تتصف بالنعت</p>
+                            <p>الاسم المعطوف يتبع المعطوف عليه رفعا ونصبا وجرا</p>
                         </ul>
 
 

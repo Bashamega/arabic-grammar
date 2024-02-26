@@ -28,7 +28,7 @@ export default function Names(){
                 <Link href={"/2/4/1"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">نعت</button>
                 </Link><Link href={"/2/4/2"}>
-                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">اسم معطوف</button>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">الاسم المعطوف</button>
                 </Link><Link href={"/2/4/3"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">بدل</button>
                 </Link><Link href={"/2/4/4"}>

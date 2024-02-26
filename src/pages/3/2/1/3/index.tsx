@@ -35,7 +35,7 @@ export default function App(){
               <Tabs>
                 <TabList>
                   <Tab>قواعد</Tab>
-                  <Tab>اعراب</Tab>
+                  <Tab>إعراب</Tab>
                   <Tab>أمثلة</Tab>
                 </TabList>
                 <TabPanel>
@@ -90,7 +90,7 @@ export default function App(){
                 <Tabs>
                 <TabList>
                   <Tab>قواعد</Tab>
-                  <Tab>اعراب</Tab>
+                  <Tab>إعراب</Tab>
                   <Tab>أمثلة</Tab>
                 </TabList>
                 <TabPanel>
@@ -146,7 +146,7 @@ export default function App(){
             <Tabs>
                 <TabList>
                   <Tab>قواعد</Tab>
-                  <Tab>اعراب</Tab>
+                  <Tab>إعراب</Tab>
                   <Tab>أمثلة</Tab>
                 </TabList>
                 <TabPanel>

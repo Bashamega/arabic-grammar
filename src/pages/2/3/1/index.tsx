@@ -29,7 +29,7 @@ export default function Names(){
                 <Tabs dir="rtl">
                     <TabList>
                         <Tab>تعريف</Tab>
-                        <Tab>اعراب</Tab>
+                        <Tab>إعراب</Tab>
                         <Tab>أمثلة</Tab>
                     </TabList>
                     <TabPanel className=" text-right">
