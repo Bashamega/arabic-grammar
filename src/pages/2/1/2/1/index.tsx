@@ -80,7 +80,7 @@ export default function lessonComponent(){
                                     خبر مرفوع وعلامة رفعه الضمة لأنها جمع مؤنث سالم
                                 </div>
                         </span> </li>
-                        <li>الأطفالُ<span className="underline text-orange-500 relative group cursor-pointer"> يتحدثون<div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
+                        <li>الأطفالُ<span className="underline text-orange-500 relative group cursor-pointer"> متحدثون<div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                                     خبر مرفوع وعلامة رفعه الواو لأنها جمع مذكر سالم
                                 </div></span> </li>
                         <li>التفاحتان <span className="underline text-orange-500 group relative cursor-pointer">لذيذتان<div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
