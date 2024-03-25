@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import 'react-tabs/style/react-tabs.css';
-export default function Names(){
+export default function lessonComponent(){
     return(
         <div className="lg:w-[700px]">
             <Link href={"/2/4"}>

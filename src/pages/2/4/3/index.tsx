@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import 'react-tabs/style/react-tabs.css';
 import Image from "next/image";
-export default function Names(){
+export default function lessonComponent(){
     return(
         <div className="lg:w-[700px]">
             <Link href={"/2/4"}>

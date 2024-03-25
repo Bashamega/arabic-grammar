@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-export default function Names(){
+export default function lessonComponent(){
     return(
         <div className="lg:w-[700px]">
             <Link href={"/"}>
