@@ -30,10 +30,8 @@ export default function lessonComponent(){
                         <Link href={"/2/1/2/1"}>
                             <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مفرد</button>
                         </Link><Link href={"/2/1/2/2"}>
-                            <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">جملة اسمية</button>
+                            <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">جمل</button>
                         </Link><Link href={"/2/1/2/3"}>
-                            <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">جملة فعلية</button>
-                        </Link><Link href={"/2/1/2/4"}>
                             <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">شبه جملة</button>
                         </Link>
 

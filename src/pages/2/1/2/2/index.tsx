@@ -20,29 +20,21 @@ export default function lessonComponent(){
                     />
                 </svg>
                 </Link>
-                <h1 className="text-7xl">خبر جملة اسمية</h1>
+                <h1 className="text-7xl">خبر الجملة</h1>
                 <br></br>
-                <p className="text-[#527853] text-lg">
-                يأتي الخبر على شكل جملة اسمية ومثال
+                <p className="text-[#527853] text-lg">هو أن يكون الخَبَر الذي يُراد به الإخبار عن المُبتدأ على هيئة جُملة على اختلاف نوعيها (الفعليّة والاسميّة)
                 </p>
                 <br />
-                    
-                <div className="text-[#527853] text-lg text-right"dir="rtl">
-                    
-                    <h1 className="text-2xl">أمثلة:</h1>
-                    <ul className="text-[#527853]" style={{ listStyleType: 'arabic-indic' }}>
-                    <li className="list-item-with-space"> المنزل <span className="underline text-orange-500 group cursor-pointer relative ">
-                            غرفهُ واسعة
-                            
-                        </span>
-                    </li>
+                <div className="text-[#527853] text-lg"dir="rtl">
+                    <h1 className="text-2xl">أنواع خبر الجملة:</h1>
+                    <div className="lg:flex lg:space-x-10 lg:justify-center text-3xl mt-10 text-black">
+                        <Link href={"/2/1/2/2/2"}>
+                            <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">الجملة الاسمية</button>
+                        </Link><Link href={"/2/1/2/2/1"}>
+                            <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">الجملة الفعلية</button>
+                        </Link>
 
-                        <li>القطة <span className="underline text-orange-500 relative group cursor-pointer">لونها جميل
-                        
-                        </span> </li>
-                        <li>الأزهار<span className="underline text-orange-500 relative group cursor-pointer"> عطرها فواح</span> </li>
-                        <li>المعلمات <span className="underline text-orange-500 group relative cursor-pointer">مجهودهن كبير</span>  </li>
-                    </ul>
+                    </div>
                 </div>
 
         </div>

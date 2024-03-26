@@ -20,29 +20,19 @@ export default function lessonComponent(){
                     />
                 </svg>
                 </Link>
-                <h1 className="text-7xl">خبر جملة فعلية</h1>
+                <h1 className="text-7xl">خبر شبه جملة</h1>
                 <br></br>
-                <p className="text-[#527853] text-lg">
-                 يأتي الخبر أيضًا على شكل جملة فعلية
-                </p>
-                <br />
-                    
-                <div className="text-[#527853] text-lg text-right"dir="rtl">
-                    
-                    <h1 className="text-2xl">أمثلة:</h1>
-                    <ul className="text-[#527853]" style={{ listStyleType: 'arabic-indic' }}>
-                    <li className="list-item-with-space"> المعلم <span className="underline text-orange-500 group cursor-pointer relative ">
-                            يشرح الدرس
-                            
-                        </span>
-                    </li>
+                <p className="text-[#527853] text-lg">يكون الخبر على شكل شبه جملة، وشبه الجملة تنقسم إلى قسمين  </p>                <br />
+                <div className=" text-lg"dir="rtl">
+                    <div className="lg:flex lg:space-x-10 lg:justify-center text-3xl mt-10">
+                       <Link href={"/2/1/2/3/1"}>
+                            <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">شبه الجملة من الجار والمجرور</button>
+                        </Link>
+                        <Link href={"/2/1/2/3/2"}>
+                            <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">شبه الجملة من ظرف المكان والزمان</button>
+                        </Link>
 
-                        <li>الطالب <span className="underline text-orange-500 relative group cursor-pointer"> ذاكر الدرس
-                        
-                        </span> </li>
-                        <li>الحق<span className="underline text-orange-500 relative group cursor-pointer">  يعلو</span> </li>
-                        <li>الطائر <span className="underline text-orange-500 group relative cursor-pointer"> يأكل القمح</span>  </li>
-                    </ul>
+                    </div>
                 </div>
 
         </div>
