@@ -26,7 +26,7 @@ export default function lessonComponent(){
                 <br />
                 <div className="text-[#527853] text-lg"dir="rtl">
                     <h1 className="text-2xl">الإعراب:</h1>
-                    <p>تائب فاعل مرفوع دائمُا وعلاماته:</p>
+                    <p> اسم كان مرفوع دائمُا وعلاماته:</p>
                     <div className=" lg:grid lg:grid-cols-3 mb-5 lg:gap-5 text-lg mt-10">
                         <div className="group mx-auto">
                             <p className="text-orange-500 cursor-pointer">الضمة</p>
@@ -81,7 +81,7 @@ export default function lessonComponent(){
                             أمسى  <span className="underline text-orange-500 group cursor-pointer relative">
                                  الجو  
                                 <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
-                                اسم أمسى مرفوع وعلامة رفعه الضم الظاهر على آخره.
+                                اسم أمسى مرفوع وعلامة رفعه الضمة الظاهر على آخره.
                                </div>
                                 </span> لطيفًا
                         </li>
@@ -89,7 +89,7 @@ export default function lessonComponent(){
                             ليس  <span className="underline text-orange-500 group cursor-pointer relative">
                                  الكذب  
                                 <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
-                                اسم ليسَ مرفوع وعلامة رفعه الضمةالظاهرة على آخره.
+                                اسم ليسَ مرفوع وعلامة رفعه الضمة الظاهرة على آخره.
 
                                 </div>
                                 </span> منجيًا
