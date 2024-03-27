@@ -22,7 +22,7 @@ export default function lessonComponent(){
                 </Link>
                 <h1 className="text-7xl">الخبر</h1>
                 <br></br>
-                <p className="text-[#527853] text-lg">الخبر هو كلمة أو جملة داخل الجملة الاسمية تقول الخبر</p>
+                <p className="text-[#527853] text-lg">الخبر هو ما يكمل معنى الجملة الاسمية</p>
                 <br />
                 <div className="text-[#527853] text-lg"dir="rtl">
                     <h1 className="text-2xl">أنواع الخبر:</h1>
@@ -30,7 +30,7 @@ export default function lessonComponent(){
                         <Link href={"/2/1/2/1"}>
                             <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مفرد</button>
                         </Link><Link href={"/2/1/2/2"}>
-                            <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">جمل</button>
+                            <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">جملة</button>
                         </Link><Link href={"/2/1/2/3"}>
                             <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">شبه جملة</button>
                         </Link>
