@@ -34,12 +34,26 @@ export default function lessonComponent(){
                     <ul className="text-[#527853]" style={{ listStyleType: 'arabic-indic' }}>
                     <li className="list-item-with-space"> العصفور <span className="underline text-orange-500 group cursor-pointer relative ">
                             تحت الشجرة
-                            
+                            <div className="  opacity-0 w-[500px] overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
+                        شبه الجملة المكون من ظرف المكان (تحت)  في محل رفع للمبتدأ الأول (العصفور)
+                        </div>
                         </span>
                     </li>
 
                         <li>الطائرة <span className="underline text-orange-500 relative group cursor-pointer">  بين السحب 
-                        
+                        <div className="  opacity-0 w-[500px] overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
+                        شبه الجملة المكون من ظرف المكان (بين)  في محل رفع للمبتدأ الأول (الطائرة)
+                        </div>
+                        </span> </li>
+                        <li>الدراسة <span className="underline text-orange-500 relative group cursor-pointer">  قبل المساء 
+                        <div className="  opacity-0 w-[500px] overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
+                        شبه الجملة المكون من ظرف الزمان (قبل)  في محل رفع للمبتدأ الأول (الدراسة)
+                        </div>
+                        </span> </li>
+                        <li>الغداء <span className="underline text-orange-500 relative group cursor-pointer">  بعد الظهر 
+                        <div className="  opacity-0 w-[500px] overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
+                        شبه الجملة المكون من ظرف المكان (بعد)  في محل رفع للمبتدأ الأول (الغداء)
+                        </div>
                         </span> </li>
                     </ul>
                 </div>
