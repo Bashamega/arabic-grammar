@@ -49,7 +49,7 @@ export default function lessonComponent(){
                             <li>
                                 يعراب الاسم المجرور بال
                                 <span className="text-orange-500">ياء </span>
-                                عندما يكون: مثنى، أو جمع مذكر سالم
+                                عندما يكون: مثنى، أو جمع مذكر سالم، أو اسم من الأسماء الخمسة
                             </li>
                         </ul>
 
@@ -80,6 +80,10 @@ export default function lessonComponent(){
                         <details>
                             <summary>حكم القاضي بالسجن على المجرمين</summary>
                             <p>المجرمين -  اسم مجرور مجرور وعلامة جره<span className="text-orange-500"> الياء </span> لأنه جمع مذكر سالم</p>
+                        </details>
+                        <details>
+                            <summary>ارجعوا إلى أبيكم</summary>
+                            <p>أبي -  اسم مجرور مجرور وعلامة جره<span className="text-orange-500"> الياء </span> لأنه اسم من الأسماء الخمسة</p>
                         </details>
                     </TabPanel>
                 </Tabs>

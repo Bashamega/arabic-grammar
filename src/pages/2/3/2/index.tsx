@@ -47,7 +47,7 @@ export default function lessonComponent(){
                             <li>
                                 يعراب المضاف إليه بال
                                 <span className="text-orange-500">ياء </span>
-                                عندما يكون: مثنى، أو جمع مذكر سالم
+                                عندما يكون: مثنى، أو جمع مذكر سالم، أو اسم من الأسماء الخمسة
                             </li>
                         </ul>
 
@@ -77,6 +77,10 @@ export default function lessonComponent(){
                         <details>
                             <summary>دام اجتماع المعلمين ساعة</summary>
                             <p>المعلمين - مضاف إليه مجرور وعلامة جره<span className="text-orange-500"> الياء </span> لأنه جمع مذكر سالم</p>
+                        </details>
+                        <details>
+                            <summary>انصت إلى نصيحة أبيك</summary>
+                            <p>أبيك - مضاف إليه مجرور وعلامة جره<span className="text-orange-500"> الياء </span> لأنه اسم من الأسماء الخمسة</p>
                         </details>
                     </TabPanel>
                 </Tabs>
