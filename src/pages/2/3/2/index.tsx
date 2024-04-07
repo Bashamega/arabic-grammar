@@ -79,7 +79,7 @@ export default function lessonComponent(){
                             <p>المعلمين - مضاف إليه مجرور وعلامة جره<span className="text-orange-500"> الياء </span> لأنه جمع مذكر سالم</p>
                         </details>
                         <details>
-                            <summary>انصت إلى نصيحة أبيك</summary>
+                            <summary>أنصت إلى نصيحة أبيك</summary>
                             <p>أبيك - مضاف إليه مجرور وعلامة جره<span className="text-orange-500"> الياء </span> لأنه اسم من الأسماء الخمسة</p>
                         </details>
                     </TabPanel>

@@ -103,6 +103,9 @@ export default function lessonComponent(){
                                 </div>
                                 </span>
                         </li>
+                        <li>ضُرب <span className="underline text-orange-500 group relative cursor-pointer">أخوك<div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
+                            نائب فاعل مرفوع وعلامة رفعه الواو لأنها اسم من الأسماء الخمسة  
+                        </div></span></li>
                     </ul>
                 </div>
                 <div className=" text-[#fff] bg-orange-500 p-2 text-right rounded w-2/3 " dir="rtl">

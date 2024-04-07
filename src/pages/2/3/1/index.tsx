@@ -58,7 +58,7 @@ export default function lessonComponent(){
 
                     </TabPanel>
                     <TabPanel className=" text-right text-[#527853]">
-                        <h1  className=" text-2xl ">أمثلة على حرف الجر:</h1>
+                        <h1  className=" text-2xl ">أمثلة على الاسم المجرور:</h1>
                         
                         <details>
                             <summary>ذهبت إلى القاهرة</summary>
