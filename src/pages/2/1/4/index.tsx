@@ -56,7 +56,7 @@ export default function lessonComponent(){
                             <svg className="absolute text-orange-500 h-2 mr-5  right-0 bottom-full rotate-180" x="0px" y="0px" viewBox="0 0 255 255" ><polygon className="fill-current" points="0,0 127.5,127.5 255,0"/></svg>
                             <ul className="text-[#fff]">
                                 <li>جمع المذكر السالم</li>
-                                
+                                <li>اسم من الأسماء الخمسة</li>
                             </ul>
                             </div>
                         </div>

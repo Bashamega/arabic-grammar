@@ -56,7 +56,7 @@ export default function lessonComponent(){
                             <svg className="absolute text-orange-500 h-2 mr-5  right-0 bottom-full rotate-180" x="0px" y="0px" viewBox="0 0 255 255" ><polygon className="fill-current" points="0,0 127.5,127.5 255,0"/></svg>
                             <ul className="text-[#fff]">
                                 <li>جمع المذكر السالم</li>
-                                
+                                <li>اسم من الأسماء الخمسة</li>
                             </ul>
                             </div>
                         </div>
@@ -85,6 +85,9 @@ export default function lessonComponent(){
                         <li>سلم <span className="underline text-orange-500 group relative cursor-pointer">العائدون<div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                         فاعل مرفوع، وعلامة رفعه الواو؛ لأنّه جمع مذكّر سالم.
                         </div></span></li>
+                        <li>أكل <span className="underline text-orange-500 group relative cursor-pointer">أبوك<div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
+                        فاعل مرفوع، وعلامة رفعه الواو؛ لأنّه اسم من الأسماء الخمسة.
+                        </div></span> التفاح</li>
                     </ul>
                 </div>
 
