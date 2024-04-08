@@ -39,12 +39,12 @@ export default function lessonComponent(){
                         </span>
                     </li>
 
-                        <li>إن الطالب <span className="underline text-orange-500 relative group cursor-pointer">  في المنزل
+                        <li>لعل الطالب <span className="underline text-orange-500 relative group cursor-pointer">  في المنزل
                         <div className="  opacity-0 w-[500px] overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                             شبه الجملة المكون من حرف الجر (في) والاسم المجرور (المنزل) في محل رفع للمبتدأ الأول (الطالب)
                             </div>
                         </span> </li>
-                        <li>إن الطائر <span className="underline text-orange-500 relative group cursor-pointer">  على الشجرة
+                        <li>ليت الطائر <span className="underline text-orange-500 relative group cursor-pointer">  على الشجرة
                         <div className="  opacity-0 w-[500px] overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                             شبه الجملة المكون من حرف الجر (على) والاسم المجرور (الشجرة) في محل رفع للمبتدأ الأول (الطائر)
                             </div>
