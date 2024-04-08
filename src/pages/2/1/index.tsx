@@ -35,7 +35,7 @@ export default function lessonComponent(){
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">نائب فاعل</button>
                 </Link><Link href={"/2/1/5"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">اسم كان</button>
-                </Link><Link href={"/2/1/1"}>
+                </Link><Link href={"/2/1/6"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">خبر إن</button>
                 </Link>
                 </div>

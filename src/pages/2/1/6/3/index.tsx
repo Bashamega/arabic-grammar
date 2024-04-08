@@ -20,9 +20,9 @@ export default function lessonComponent(){
                     />
                 </svg>
                 </Link>
-                <h1 className="text-7xl">خبر شبه جملة</h1>
+                <h1 className="text-7xl">خبر إن شبه جملة</h1>
                 <br></br>
-                <p className="text-[#527853] text-lg">يكون الخبر على شكل شبه جملة، وشبه الجملة تنقسم إلى قسمين  </p>                <br />
+                <p className="text-[#527853] text-lg">يكون الخبر إن على شكل شبه جملة، وشبه الجملة تنقسم إلى قسمين  </p>                <br />
                 <div className=" text-lg"dir="rtl">
                     <div className="lg:flex lg:space-x-10 lg:justify-center text-3xl mt-10">
                        <Link href={"/2/1/6/3/1"}>

@@ -23,7 +23,7 @@ export default function lessonComponent(){
                 <h1 className="text-7xl">شبه الجملة من الجار والمجرور</h1>
                 <br></br>
                 <p className="text-[#527853] text-lg">
-                يقع الخبر في هذا النوع محلّ حرف الجر والاسم المجرور بعده
+                يقع خبر إن في هذا النوع محلّ حرف الجر والاسم المجرور بعده
                 </p>      
                 <br />
                     
@@ -31,7 +31,7 @@ export default function lessonComponent(){
                     
                     <h1 className="text-2xl">أمثلة:</h1>
                     <ul className="text-[#527853]" style={{ listStyleType: 'arabic-indic' }}>
-                    <li className="list-item-with-space"> المعلم <span className="underline text-orange-500 group cursor-pointer relative ">
+                    <li className="list-item-with-space">إن المعلم <span className="underline text-orange-500 group cursor-pointer relative ">
                             في الصف 
                             <div className="  opacity-0 w-[500px] overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                             شبه الجملة المكون من حرف الجر (في) والاسم المجرور (الصف) في محل رفع للمبتدأ الأول (المعلم)
@@ -39,12 +39,12 @@ export default function lessonComponent(){
                         </span>
                     </li>
 
-                        <li>الطالب <span className="underline text-orange-500 relative group cursor-pointer">  في المنزل
+                        <li>إن الطالب <span className="underline text-orange-500 relative group cursor-pointer">  في المنزل
                         <div className="  opacity-0 w-[500px] overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                             شبه الجملة المكون من حرف الجر (في) والاسم المجرور (المنزل) في محل رفع للمبتدأ الأول (الطالب)
                             </div>
                         </span> </li>
-                        <li>الطائر <span className="underline text-orange-500 relative group cursor-pointer">  على الشجرة
+                        <li>إن الطائر <span className="underline text-orange-500 relative group cursor-pointer">  على الشجرة
                         <div className="  opacity-0 w-[500px] overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                             شبه الجملة المكون من حرف الجر (على) والاسم المجرور (الشجرة) في محل رفع للمبتدأ الأول (الطائر)
                             </div>
