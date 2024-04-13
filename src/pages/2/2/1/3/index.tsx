@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function lessonComponent(){
     return(
         <div className="lg:w-[700px]">
-            <Link href={"/2/2/1/1"}>
+            <Link href={"/2/2/1"}>
                 <svg
                     width="24"
                     height="24"
