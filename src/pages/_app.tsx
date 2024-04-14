@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <title>نحو</title>
       <meta name="title" content="نحو" />
       <meta name="description" content="تعلم النحو بطريقة بسيطة وسهلة" />
-
+      <meta name="keywords" content="Arabic, Grammar, قواعد اللغة العربية, Words, Learning, تعلم, كلمات"/>
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://arabicgrammar.adambashaahmednaji.com/" />
       <meta property="og:title" content="نحو" />
