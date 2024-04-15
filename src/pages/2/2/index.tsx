@@ -31,7 +31,7 @@ export default function lessonComponent(){
                 <Link href={"/2/2/2"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مفعول لأجله</button>
                 </Link><Link href={"/2/2/3"}>
-                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مفعول فيه</button>
+                    <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">الظرف</button>
                 </Link><Link href={"/2/2/4"}>
                     <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مفعول مطلق</button>
                 </Link><Link href={"/2/2/5"}>

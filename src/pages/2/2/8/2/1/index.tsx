@@ -30,7 +30,7 @@ export default function lessonComponent(){
                     <h1 className="text-2xl">أمثلة:</h1>
                     <ul className="text-[#527853]" style={{ listStyleType: 'arabic-indic' }}>
                         <li>
-                            كان القلعة <span className="underline text-orange-500 group cursor-pointer relative">
+                            كانت القلعة <span className="underline text-orange-500 group cursor-pointer relative">
                                  أسوارها عالية  
                                 <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                                 مبتدأ وخبر 

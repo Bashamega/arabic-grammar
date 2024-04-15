@@ -46,7 +46,6 @@ export default function lessonComponent(){
                             <ul className="text-[#fff]">
                                 <li>المثنى</li>
                                 <li>جمع المذكر السالم</li>
-                                <li>أسماء الخمسة</li>
                             </ul>
                             </div>
                         </div>
