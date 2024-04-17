@@ -29,9 +29,9 @@ export default function lessonComponent(){
                     
                     <h1 className="text-2xl">أنواع:</h1>
                     <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                        <li>النطرة المقصودة</li>
+                        <li>النكرة المقصودة</li>
                         <li>العلم المفرد</li>
-                        <li>نداء فيه ألـ</li>
+                        <li>نداء ما فيه ألـ</li>
                     </ul>
                     <div className="text-right">
                         <h1 className="text-2xl">أمثلة:</h1>
@@ -42,7 +42,7 @@ export default function lessonComponent(){
                                 <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                                  النوع: النكرة المقصودة
                                  <br></br>
-                                 الإعراب: منادى مبني على الرفع في محل نصب المنادى
+                                 الإعراب: منادى مبني على الضم في محل نصب
                                 </div>
                                 </span>، كن عادلًا
                              </li>
@@ -53,7 +53,7 @@ export default function lessonComponent(){
                                 <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                                  النوع: العلم المفرد
                                  <br></br>
-                                 الإعراب: منادى مبني على الرفع في محل نصب المنادى
+                                 الإعراب: منادى مبني على الضم في محل نصب
                                 </div>
                                 </span>، ذاكر دروسك
                              </li>
@@ -61,9 +61,9 @@ export default function lessonComponent(){
                             يا (هذا، أيها) <span className="underline text-orange-500 group cursor-pointer relative">
                                 الأمير  
                                 <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
-                                 النوع: نداء فيه ألأ
+                                 النوع: نداء ما فيه ألأ
                                  <br></br>
-                                 الإعراب: منادى مبني على الرفع في محل نصب المنادى
+                                 الإعراب: منادى مبني على الضم في محل نصب
                                 </div>
                                 </span>، كن عادلًا
                              </li>

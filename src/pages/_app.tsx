@@ -42,6 +42,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <div>Free <br></br> Palestine</div>
       </div>
       <div className=" bg-[#F9E8D9] p-10 rounded-lg shadow-lg text-center space-y-3 " style={{ zIndex: 1000 }}>
+        <div className="text-[#527853] text-lg text-center border border-[#527853] rounded w-[100px] py-2">
+          تجريبي
+        </div>
         <Component {...pageProps} />
       </div>
 

@@ -24,7 +24,7 @@ export default function lessonComponent(){
                 <h1 className="text-5xl">(المفعول فيه)</h1>
 
                 <br></br>
-                <p className="text-[#527853] text-lg">المفعول فيه هو اسمٌ ينتصب على تقدير "في" ويدلّ على زمان وقوع الفعل أو مكان وقوع الفعل</p>
+                <p className="text-[#527853] text-lg">المفعول فيه هو اسمٌ منصوب على تقدير "في" ويدلّ على زمان وقوع الفعل أو مكان وقوع الفعل</p>
                 <br />
                 <div className="text-[#527853] text-lg"dir="rtl">
                     <h1 className="text-2xl">الإعراب:</h1>
@@ -78,7 +78,7 @@ export default function lessonComponent(){
                                 <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
                                 مفعول فيه منصوب بالفتحة الظاهرة في آخره  
                                 </div>
-                                </span> الساعة 6
+                                </span> الساعة السادسة والسابعة
                              </li>
                              <li>
                             نام العضفور <span className="underline text-orange-500 group cursor-pointer relative">

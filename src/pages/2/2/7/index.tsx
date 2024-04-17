@@ -22,7 +22,7 @@ export default function lessonComponent(){
                 </Link>
                 <h1 className="text-7xl">اسم إن</h1>
                 <br></br>
-                <p className="text-[#527853] text-lg">اسم إن هو هو المبتدأ في الجملة الناسخة لحروف إن</p>
+                <p className="text-[#527853] text-lg">اسم إن هو المبتدأ بعد دخول إن أو إحدى أخواتها على الجملة الاسمية</p>
                 <br />
                 <div className="text-[#527853] text-lg"dir="rtl">
                     <h1 className="text-2xl">الإعراب:</h1>
@@ -55,7 +55,7 @@ export default function lessonComponent(){
                             <svg className="absolute text-orange-500 h-2 mr-5  right-0 bottom-full rotate-180" x="0px" y="0px" viewBox="0 0 255 255" ><polygon className="fill-current" points="0,0 127.5,127.5 255,0"/></svg>
 
                             <ul className="text-[#fff]">
-                                <li>أسماء الخمسة</li>
+                                <li>الأسماء الخمسة</li>
                             </ul>
                             </div>
                         </div>

@@ -22,7 +22,7 @@ export default function lessonComponent(){
                 </Link>
                 <h1 className="text-7xl">الحال</h1>
                 <br></br>
-                <p className="text-[#527853] text-lg">الحال هو اسم منصوب يأتي لبيان هيئة صاحب الحال عند وقوع الفعل، ودائما ما يأتي الحال منكرًا ويأتي بمثابة جوابًا لجملة استفهامية تكون أداة الاستفهام فيها هي “كيف” ، أي كيف كان حال صاحب الحال</p>
+                <p className="text-[#527853] text-lg">الحال هو اسم منصوب يأتي لبيان هيئة صاحب الحال (فاعل أو مفعول به) عند وقوع الفعل، ودائما ما يأتي الحال منكرًا ويأتي بمثابة جوابًا لجملة استفهامية تكون أداة الاستفهام فيها هي “كيف” ، أي كيف كان حال صاحب الحال</p>
                 <br />
                 <div className="text-[#527853] text-lg"dir="rtl">
                     <h1 className="text-2xl">الإعراب:</h1>
@@ -68,7 +68,7 @@ export default function lessonComponent(){
                             ركض حمدي <span className="underline text-orange-500 group cursor-pointer relative">
                                  سعيدًا  
                                 <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
-                                حال منصوب بالفتحة الظاهرة في آخره  
+                                حال منصوب وعلامته الفتحة الظاهرة في آخره  
                                 </div>
                                 </span>
                              </li>
@@ -76,7 +76,7 @@ export default function lessonComponent(){
                             جلس الطلاب  <span className="underline text-orange-500 group cursor-pointer relative">
                                  منصتين  
                                 <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
-                                حال منصوب بالياء لأنه جمع مذكر سالم  
+                                حال منصوب وعلامته الياء لأنه جمع مذكر سالم  
                                 </div>
                                 </span>
                              </li>
@@ -84,7 +84,15 @@ export default function lessonComponent(){
                             عادت الطالبات <span className="underline text-orange-500 group cursor-pointer relative">
                                  مسرورات  
                                 <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
-                                حال منصوب كسرة لأنه جمع مذكر سالم  
+                                حال منصوب  وعلامته الكسرة لأنه جمع مذكر سالم  
+                                </div>
+                                </span>
+                             </li>
+                             <li>
+                            شربت الماء <span className="underline text-orange-500 group cursor-pointer relative">
+                                 عذبًا  
+                                <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
+                                حال منصوب وعلامة الفتحة  
                                 </div>
                                 </span>
                              </li>
