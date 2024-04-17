@@ -72,6 +72,22 @@ export default function lessonComponent(){
                                 </div>
                                 </span>
                              </li>
+                             <li>
+                            استيقظت <span className="underline text-orange-500 group cursor-pointer relative">
+                                 بين  
+                                <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
+                                مفعول فيه منصوب بالفتحة الظاهرة في آخره  
+                                </div>
+                                </span> الساعة 6
+                             </li>
+                             <li>
+                            نام العضفور <span className="underline text-orange-500 group cursor-pointer relative">
+                                 فوق  
+                                <div className=" whitespace-nowrap white  opacity-0 w-auto overflow-visible bg-[#dae0da] text-lg shadow-2xl text-center rounded-lg py-2 absolute z-10 group-hover:opacity-100 bottom-full ml-14 px-3 pointer-events-none">
+                                مفعول فيه منصوب بالفتحة الظاهرة في آخره  
+                                </div>
+                                </span> الشجرة 
+                             </li>
                         
                     </ul>
                 </div>

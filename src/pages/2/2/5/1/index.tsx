@@ -27,38 +27,12 @@ export default function lessonComponent(){
                 <div className="text-[#527853] text-lg"dir="rtl">
                     <h1 className="text-2xl">الإعراب:</h1>
                     <p>تمييز منصوب دائمُا وعلاماته:</p>
-                    <div className=" lg:grid lg:grid-cols-3 mb-5 lg:gap-5 text-lg mt-10">
+                    <div className=" lg:grid lg:grid-cols-1 mb-5 lg:gap-5 text-lg mt-10">
                         <div className="group mx-auto">
-                            <p className="text-orange-500 cursor-pointer">الفتحة</p>
-                            <div className="p-1 bg-orange-500 rounded hidden group-hover:flex absolute shadow-lg w-[150px] h-[100px] justify-center items-center">
-                            <svg className="absolute text-orange-500 h-2 mr-5  right-0 bottom-full rotate-180" x="0px" y="0px" viewBox="0 0 255 255" ><polygon className="fill-current" points="0,0 127.5,127.5 255,0"/></svg>
-                            <ul className="text-[#fff]">
-                                <li>المفرد</li>
-                                <li>جمع التكسير</li>
-                            </ul>
-                            </div>
+                            <p className="text-orange-500 ">الفتحة</p>
+                            
                         </div>
-                        <div className="group mx-auto">
-                            <p className="text-orange-500 cursor-pointer">الياء</p>
-                            <div className="p-1 bg-orange-500 rounded hidden group-hover:flex absolute shadow-lg w-[150px] h-[100px] justify-center items-center">
-                            <svg className="absolute text-orange-500 h-2 mr-5  right-0 bottom-full rotate-180" x="0px" y="0px" viewBox="0 0 255 255" ><polygon className="fill-current" points="0,0 127.5,127.5 255,0"/></svg>
-
-                            <ul className="text-[#fff]">
-                                <li>المثنى</li>
-                                <li>جمع المذكر السالم</li>
-                                <li>أسماء الخمسة</li>
-                            </ul>
-                            </div>
-                        </div>
-                        <div className="group mx-auto">
-                            <p className="text-orange-500 cursor-pointer">الكسرة</p>
-                            <div className="p-1 bg-orange-500 rounded hidden group-hover:flex absolute shadow-lg w-[150px] h-[100px] justify-center items-center">
-                            <svg className="absolute text-orange-500 h-2 mr-5  right-0 bottom-full rotate-180" x="0px" y="0px" viewBox="0 0 255 255" ><polygon className="fill-current" points="0,0 127.5,127.5 255,0"/></svg>
-                            <ul className="text-[#fff]">
-                                <li>جمع المؤنث السالم</li>
-                            </ul>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div className="text-[#527853] text-lg text-right"dir="rtl">
