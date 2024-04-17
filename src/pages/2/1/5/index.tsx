@@ -26,7 +26,7 @@ export default function lessonComponent(){
                 <br />
                 <div className="text-[#527853] text-lg"dir="rtl">
                     <h1 className="text-2xl">الإعراب:</h1>
-                    <p> اسم كان مرفوع دائمُا وعلاماته:</p>
+                    <p> اسم كان مرفوع دائمًا وعلاماته:</p>
                     <div className=" lg:grid lg:grid-cols-3 mb-5 lg:gap-5 text-lg mt-10">
                         <div className="group mx-auto">
                             <p className="text-orange-500 cursor-pointer">الضمة</p>
