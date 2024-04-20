@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <div className="absolute top-0 right-0 bg-black text-red-500 text-2xl font-bold origin-top float-right mt-9 mr-9 w-72 text-center" style={{ transform: "translateX(50%) rotate(45deg)" }} >
         <div>Free <br></br> Palestine</div>
       </div>
-      <div className=" bg-[#F9E8D9] p-10 rounded-lg shadow-lg text-center space-y-3 " style={{ zIndex: 1000 }}>
+      <div className=" bg-[#F9E8D9] p-10 rounded-lg shadow-lg max-h-[100%] overflow-auto text-center space-y-3" style={{ zIndex: 1000 }}>
         <div className="text-[#527853] text-lg text-center border border-[#527853] rounded w-[100px] py-2">
           تجريبي
         </div>
