@@ -27,7 +27,7 @@ export default function App() {
         </svg>
       </Link>
       <h1 className="text-4xl lg:text-7xl rounded-lg shadow-lg border p-5 bg-[#F7B787] text-center mt-5 lg:mt-0">
-        ماضي
+      ماضٍ
       </h1>
       <p className="text-[#527853] text-lg">الفعل الماضي هو الفعل الذي يدل على حدث وقع وانقطع قبلَ زمنِ التكلم</p>
       <div dir="rlt" className="text-[#527853] text-lg mt-5 w-full text-right">
