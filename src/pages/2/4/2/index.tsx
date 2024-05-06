@@ -62,7 +62,7 @@ export default function lessonComponent(){
                         </details>
                         
                         <details>
-                            <summary >حببت المعلمات وطالبات</summary>
+                            <summary >أحببت المعلمات وطالبات</summary>
                             <p>طالبات - اسم معطوف منصوب وعلامة الجر <span className="text-orange-500"> الكسرة </span></p>
                         </details>
                         
