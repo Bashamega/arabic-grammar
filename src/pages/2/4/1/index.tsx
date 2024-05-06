@@ -60,7 +60,7 @@ export default function lessonComponent(){
                         </details>
                         
                         <details>
-                            <summary >حببت طالبات مجداتِ</summary>
+                            <summary >أحببت طالبات مجداتِ</summary>
                             <p>مجدات - نعت منصوب وعلامة نصبه <span className="text-orange-500"> الكسرة </span></p>
                         </details>
                         
