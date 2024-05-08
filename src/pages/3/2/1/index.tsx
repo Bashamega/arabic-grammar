@@ -26,7 +26,7 @@ export default function App(){
         <Link href={"/3/2/1/3"}>
           <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">مجزوم</button>
         </Link>
-        <Link href={"/3/2/1/6"}>
+        <Link href={"/3/2/1/2"}>
           <button className="w-full lg:w-auto rounded-lg shadow-lg hover:shadow-sm border p-5 bg-[#F7B787] hover:bg-[#EE7214]">منصوب</button>
         </Link>
         <Link href={"/3/2/1/1"}>
